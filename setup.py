@@ -7,7 +7,7 @@ setuptools.setup(
     name="openapi-data-generator",
     version="1.0.0",
     author="Elyashiv Danino && RAZALKALY",
-    author_email="elyashiv3839@gmail.com && RAZALKALAY@YAHOO.COM",
+    author_email="elyashiv3839@gmail.com",
     description="Resolve schema and deploy to single schema",
     long_description="file: README.md",
     long_description_content_type="text/markdown",
