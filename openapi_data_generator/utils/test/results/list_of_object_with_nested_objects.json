@@ -1,0 +1,47 @@
+[
+    [
+        "status",
+        {
+            "type": "string"
+        }
+    ],
+    [
+        "jobId",
+        {
+            "type": "string"
+        }
+    ],
+    [
+        "storageModule",
+        {
+            "type": "string"
+        }
+    ],
+    [
+        "data",
+        {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    ],
+    [
+        "timeTook",
+        {
+            "type": "number"
+        }
+    ],
+    [
+        "pipeline",
+        {
+            "type": "string"
+        }
+    ],
+    [
+        "timestamp",
+        {
+            "type": "string"
+        }
+    ]
+]
