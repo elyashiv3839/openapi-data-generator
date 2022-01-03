@@ -7,7 +7,7 @@ setuptools.setup(
     name="openapi-data-generator",
     version="1.0.0",
     author="Elyashiv Danino && RAZALKALY",
-    author_email="elyashiv3839@gmail.com",
+    author_email="elyashiv3839@gmail.com && RAZALKALAY@YAHOO.COM",
     description="Resolve schema and deploy to single schema",
     long_description="file: README.md",
     long_description_content_type="text/markdown",
@@ -16,10 +16,10 @@ setuptools.setup(
     project_urls={"Bug Tracker": "https://github.com/elyashiv3839/openapi-data-generator.git/issues"},
     classifier=[
         "Programming Language :: Python :: 3",
-        "Licence :: RAFAEL",
+        "Licence :: MIT",
         "Operating System :: Multi-platform",
     ],
-    packages=['openapi_schema_generator'],
+    packages=['openapi_data_generator'],
     python_requires=">=3.6",
     install_requires=["openapi-schema-generator==1.0.0", "rstr==3.0.0", "filelock==3.4.2"]
 )
