@@ -246,6 +246,8 @@ class ObjectsGenerator(object):
         if args[3]:
             array_length = min_edge
         else:
+            if 'enum' in args[0]['items']:
+                max_edge = len(args[0]['items']['enum'])
             array_length = randint(min_edge, max_edge)
         for _ in range(array_length):
             generated_value = self.get_value(args[0]["items"], args[1], args[2], args[3])
